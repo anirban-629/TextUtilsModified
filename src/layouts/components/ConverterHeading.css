@@ -1,0 +1,59 @@
+.head1 {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 4px;
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  cursor: none;
+  animation: typewriter1 4s steps(44) 1s 1 normal both,
+    blinkTextCursor1 500ms infinite;
+}
+.head2 {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 4px;
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  cursor: none;
+  animation: typewriter2 4s steps(44) 1s 1 normal both,
+    blinkTextCursor2 500ms infinite;
+}
+
+@keyframes typewriter1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 294px;
+  }
+}
+@keyframes blinkTextCursor1 {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 195px;
+  }
+}
+@keyframes blinkTextCursor2 {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
