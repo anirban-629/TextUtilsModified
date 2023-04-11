@@ -143,7 +143,7 @@ const Home = () => {
             <Button1 data={{ id: 3, value: inputText, text: "_Underscore" }} />
             <Button1 data={{ id: 4, value: inputText, text: "Clear" }} />
             <Button1
-              data={{ id: 5, value: inputText, text: "Remove   Space" }}
+              data={{ id: 5, value: inputText, text: "Remove Extra Space" }}
             />
             <Button1 data={{ id: 6, value: inputText, text: "Reverse" }} />
             <Button1
