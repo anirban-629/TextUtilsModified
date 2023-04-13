@@ -15,13 +15,14 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
+            {/* <img
               className=""
               src="/images/logo.png"
               alt=""
               height={10}
               width={100}
-            />
+            /> */}
+            TEXT UTILS
           </Link>
         </div>
         <div className="flex lg:hidden">
