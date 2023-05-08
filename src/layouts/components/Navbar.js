@@ -22,7 +22,7 @@ export default function Example() {
               height={10}
               width={100}
             /> */}
-            TEXT UTILS
+            TEXT CONVERTER
           </Link>
         </div>
         <div className="flex lg:hidden">
